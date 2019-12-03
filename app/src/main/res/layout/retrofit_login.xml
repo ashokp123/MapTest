@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:orientation="vertical"
+            android:background="@drawable/circular_shape"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/sgin_emal_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/sgin_emal_edtxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textSize="14dp"
+                    android:background="@null"
+                    android:singleLine="true"
+                    android:hint="Email"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/colorPrimary"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/sgin_pswd_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp">
+
+                <EditText
+                    android:id="@+id/sgin_pswd_edtxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textSize="14dp"
+                    android:background="@null"
+                    android:hint="Password"
+                    android:password="true"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/sgin_frgtpswd_txtt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:textColor="@color/black"
+                android:text="ForgotPassword"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="43dp"/>
+
+            <Button
+                android:id="@+id/sgin_ctnue_btnn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:text="SignIn"
+                android:background="@drawable/cntinue_btn_bg"/>
+
+            <Button
+                android:id="@+id/get_rstrnts_btnn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:text="GetRestaurants"
+                android:background="@drawable/cntinue_btn_bg"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

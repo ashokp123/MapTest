@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:background="#ffb6ffb0">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    android:layout_margin="5dp"
+    android:gravity="center_horizontal"
+    android:text="PLACES TO VISIT : "
+    android:textSize="25sp"
+    android:textStyle="italic|normal" />
+<EditText
+    android:id="@+id/edplaceid"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_margin="5dp"
+    android:hint="PLACE ID" />
+
+<EditText
+    android:id="@+id/edplace"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_margin="5dp"
+    android:hint="PLACE NAME" />
+<EditText
+    android:id="@+id/edcountry"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_margin="5dp"
+    android:hint="COUNTRY" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:orientation="horizontal"
+    android:weightSum="3">
+<Button
+    android:id="@+id/btnadd"
+    android:layout_width="0dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="#ffff2f5d"
+    android:textColor="#fff"
+    android:textSize="20sp"
+    android:text="ADD" />
+<Button
+    android:id="@+id/btnupdate"
+    android:layout_width="0dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="#ffff2f5d"
+    android:textColor="#fff"
+    android:textSize="20sp"
+    android:text="UPDATE" />
+<Button
+    android:id="@+id/btndelete"
+    android:layout_width="0dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="#ffff2f5d"
+    android:textColor="#fff"
+    android:textSize="20sp"
+    android:text="DELETE" />
+    </LinearLayout>
+<Button
+    android:id="@+id/btnview"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:background="#ff2b84ff"
+    android:textColor="#fff"
+    android:textSize="20sp"
+    android:text="VIEW PLACES" />
+<TextView
+    android:id="@+id/txtresulttext"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="15dp"
+    android:gravity="left"
+    android:text=""
+    android:layout_weight="1"
+    android:textStyle="italic|bold"
+    android:textSize="20sp" />
+
+    </LinearLayout>

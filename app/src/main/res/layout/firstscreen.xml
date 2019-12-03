@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/getMapp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="getMap"/>
+
+        <Button
+            android:id="@+id/getDB"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="getSQLiteDB"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/getDB_list"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="getSQLiteDBwithList"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/getLogin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="getLoginRetro"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/getIPPB"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="getIPPB App"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

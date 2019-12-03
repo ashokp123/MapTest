@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+<ListView
+    android:id="@+id/placeslist"
+    android:layout_width="match_parent"
+    android:layout_weight="9"
+    android:layout_height="0dp"
+    android:layout_alignParentLeft="true"></ListView>
+
+<TextView
+    android:id="@+id/txtresulttext"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:gravity="left"
+    android:text=""
+    android:layout_weight="1"
+    android:textStyle="italic|bold"
+    android:textSize="13sp" />
+
+    </LinearLayout>
