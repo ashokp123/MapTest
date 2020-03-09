@@ -14,7 +14,7 @@ import shiva.com.maptest.maps.MainActivity;
 
 public class FirstScreen extends AppCompatActivity{
 
-   Button getMapp,getDB,getDB_list,getLogin,getIPPB;
+   Button getMapp,getDB,getDB_list,getLogin,getRecyclr_view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,7 @@ public class FirstScreen extends AppCompatActivity{
         getDB = (Button)findViewById(R.id.getDB);
         getDB_list = (Button)findViewById(R.id.getDB_list);
         getLogin = (Button)findViewById(R.id.getLogin);
-      getIPPB = (Button)findViewById(R.id.getIPPB);
+        getRecyclr_view = (Button)findViewById(R.id.getRecyclr_view);
 
       getMapp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,6 +59,12 @@ public class FirstScreen extends AppCompatActivity{
           @Override
           public void onClick(View v) {
               startActivity(new Intent(FirstScreen.this, LoginRetro.class));
+          }
+      });
+      getRecyclr_view.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+
           }
       });
 
